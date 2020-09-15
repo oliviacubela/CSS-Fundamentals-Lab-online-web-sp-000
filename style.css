@@ -6,25 +6,27 @@ body {
 
 h1 {
   text-align: center;
-
 }
 
-nav {
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav, figcaption {
   text-align: center;
 }
 
 nav a {
-  padding:10;
-  background: #ccc;
-}
-
-figcaption {
-  text-align: center;
+  padding: 0 10px;
+  background-color: grey;
+  margin: 0 auto;
 }
 
 #featured-property p {
   width: 800px;
-  align-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 footer {
@@ -32,6 +34,9 @@ footer {
   width: 100%;
 }
 
-#details > div {
+#details div {
   float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
 }
