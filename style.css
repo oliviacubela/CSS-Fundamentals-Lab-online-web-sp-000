@@ -23,13 +23,9 @@ nav a {
   margin: 0 auto;
 }
 
-figcaption {
-  text-align: center;
-}
-
 #featured-property p {
   width: 800px;
-  align-content: center;
+  text-align: center;
 }
 
 footer {
