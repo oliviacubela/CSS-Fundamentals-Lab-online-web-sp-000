@@ -6,16 +6,21 @@ body {
 
 h1 {
   text-align: center;
-
 }
 
-nav {
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav, figcaption {
   text-align: center;
 }
 
 nav a {
-  padding:10;
-  background: #ccc;
+  padding: 0 10px;
+  background-color: grey;
+  margin: 0 auto;
 }
 
 figcaption {
